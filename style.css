@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;    
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.logo img {
+    
+    width: 9em;
+
+}
+
+nav {
+
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+a {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+
+p {
+    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+#principale {
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0% 20%;
+
+    padding-bottom: 10%;
+    
+
+    background-color: white;
+}
+
+h1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.banner {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.banner img {
+
+    width: 70%;
+}
+
+.texte-accueil {
+
+    margin: 0% 14%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.pied-page {
+
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    background-color: white;
+}
+
+.navi ul {
+
+    list-style-position: inside;
+    padding: 0;
+}
+
+.copyright {
+
+    text-align: center;
+}
+
+
+
+
+
+.texte-genre {
+
+    padding: 0px 20px;
+}
+
+.premier {
+
+    padding-bottom: 30px;
+}
+
+.block-photo {
+
+    width: 300px;
+    height: 399px;
+
+
+}
+
+.textephoto1 {
+
+    display: flex;
+    width: auto;
+    align-items: center;
+
+}
+
+.textephoto1 p {
+
+    width: 40%;
+    margin-left: 20px;
+    line-height: 2vh;
+    text-align: justify;
+}
+
+.textephoto1 img {
+
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textephoto2 {
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.textephoto2 p {
+
+    width: 40%;
+    margin-right: 20px;
+    line-height: 2vh;
+    text-align: justify;
+    text-align-last: right;
+
+}
+
+.textephoto2 img {
+
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+    
+}
+
+.textephoto3 {
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+
+}
+
+.textephoto3 p {
+
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    line-height: 2vh;
+    text-align: left;
+
+}
+
+.textephoto3 img {
+
+  width: 500px;
+  height: 500px;
+  border-radius: 20%;
+  object-fit: cover;
+    
+}
+
+.deuxieme {
+
+
+    text-align: end;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+
+      /* On centre le formulaire */
+  margin: 0 auto;
+  width: 400px;
+  /* Le contour du formulaire */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+.navi {
+
+    width: 10%;
+}
+
+.contact {
+
+   
+    width: 10%;
+    text-align: right;
+}
+
+
+.reseaux {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10%;
+
+}
+
+
+.social-block img {
+
+    width: 4em;
+}
+
+#name {
+
+    height: 30px;
+   }
+
+
+#email {
+
+    height: 30px;
+   }
+
+#message {
+
+    height: 200px;
+    
+   }
+
+#contact-text {
+
+    font-size: 3vh;
+   }
+
+
+
+
+@media only screen and (max-width: 581px) {
+
+    header {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+
+        display: flex;
+        
+        align-items: start;
+        line-height: 2vh;
+        margin-right: 20px;
+        
+        margin-top: -30px;
+    }
+
+    nav ul {
+
+        width: auto;
+    }
+
+    .logo {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo2 {
+
+        display: none;
+    }
+
+    #principale {
+        
+        margin: 0;
+    }
+
+   footer {
+
+    display: flex;
+    flex-direction: column;
+   }
+
+   .pied-page {
+    
+    display: flex;
+    justify-content: center;
+   }
+
+   .navi {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+   }
+
+   .reseaux {
+
+    display: flex;
+    width: 30%;
+   }
+
+   .social-block {
+
+    display: flex;
+    justify-content: center;
+   }
+
+   .contact {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   }
+
+ 
+   .textephoto1 {
+
+    display: flex;
+    flex-direction: column;
+   }
+
+   .textephoto1 p {
+
+    width: 80%;
+   }
+
+   .textephoto2 {
+
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .textephoto2 p {
+
+    width: 80%;
+    text-align-last: left;
+   }
+
+   .textephoto3 p {
+
+    width: 80%;
+    text-align: center;
+   }
+
+   #name {
+
+    height: 30px;
+   }
+
+
+   #email {
+
+    height: 30px;
+   }
+
+   #message {
+
+    height: 200px;
+
+   }
+
+    }
